@@ -15,3 +15,13 @@ class Post
   def author
     @author.name
   end
+
+  def author_name
+    if self.artist == nil
+      nil
+    else
+     @artist.name
+    end
+  end
+
+end 
