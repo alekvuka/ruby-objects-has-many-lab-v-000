@@ -7,14 +7,11 @@ class Artist
   def initialize(name)
     @name = name
     @songs = Array.new
-    #binding.pry
   end
 
   def add_song(song)
-    #binding.pry
     song.artist = self
     @songs << song
-
   end
 
   def add_song_by_name(name)
