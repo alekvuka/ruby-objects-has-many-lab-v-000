@@ -1,6 +1,6 @@
 class Post
 
-  attr_accessor :title :author
+  attr_accessor :title, :author
   @@all = Array.new
 
   def initialize(title)
@@ -24,4 +24,4 @@ class Post
     end
   end
 
-end 
+end
